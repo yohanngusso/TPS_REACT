@@ -1,0 +1,33 @@
+.projetos {
+    text-align: center;
+    padding: 20px;
+}
+
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.projetos-grid figure {
+    margin: 0;
+    text-align: center;
+}
+
+.projetos-grid img {
+    width: 50%;
+    height: auto;
+}
+
+.projetos-grid figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Media query para dispositivos de tela pequena */
+@media (max-width: 600px) {
+    .projetos-grid {
+        grid-template-columns: 1fr;
+    }
+}

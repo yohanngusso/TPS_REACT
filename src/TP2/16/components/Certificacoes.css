@@ -1,0 +1,15 @@
+.certificacoes {
+    text-align: center;
+    padding: 20px;
+}
+
+.certificacoes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certificacoes li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}

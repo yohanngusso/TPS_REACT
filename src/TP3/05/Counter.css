@@ -1,0 +1,27 @@
+.counter {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.counter button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.counter button:hover {
+    background-color: #0056b3;
+}
+
+.counter button:last-child {
+    background-color: #dc3545;
+}
+
+.counter button:last-child:hover {
+    background-color: #c82333;
+}

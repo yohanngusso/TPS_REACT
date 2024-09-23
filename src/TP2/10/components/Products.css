@@ -1,0 +1,23 @@
+.products-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.products {
+    padding: 40px;
+    text-align: center;
+    margin-left: 200px; 
+
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.products-grid img {
+    width: 40%;
+    height: auto;
+}

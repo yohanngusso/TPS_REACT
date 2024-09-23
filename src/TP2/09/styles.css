@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media query para dispositivos de tela pequena */
+@media (max-width: 600px) {
+  .home, .about-us, .products, .contact {
+      padding: 20px;
+  }
+
+  .home {
+      flex-direction: column;
+  }
+
+  .home-image, .home-text {
+      margin: 0;
+  }
+
+  .about-us-images {
+      flex-direction: column;
+  }
+
+  .products-grid {
+      grid-template-columns: 1fr;
+  }
+}

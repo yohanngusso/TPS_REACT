@@ -1,0 +1,22 @@
+.habilidades {
+    text-align: center;
+    padding: 20px;
+}
+
+.habilidades-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.habilidades-grid img {
+    width: 50%;
+    height: auto;
+}
+
+/* Media query para dispositivos de tela pequena */
+@media (max-width: 600px) {
+    .habilidades-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

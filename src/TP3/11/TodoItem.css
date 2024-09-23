@@ -1,0 +1,45 @@
+.todo-item {
+    font-size: 20px;
+    color: #333;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-item.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.todo-item button {
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.todo-item button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.todo-item button:last-child {
+    background-color: #dc3545;
+}
+
+.todo-item button:last-child:hover {
+    background-color: #c82333;
+}
+
+.todo-item input {
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

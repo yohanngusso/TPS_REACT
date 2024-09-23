@@ -1,0 +1,17 @@
+.about-us {
+    padding: 40px;
+    text-align: center;
+}
+
+.about-us-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.about-us-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

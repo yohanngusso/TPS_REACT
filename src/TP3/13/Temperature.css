@@ -1,0 +1,10 @@
+.temperature {
+    font-size: 24px;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}

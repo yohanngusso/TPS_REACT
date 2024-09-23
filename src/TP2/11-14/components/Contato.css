@@ -1,0 +1,22 @@
+.contato {
+    text-align: center;
+    padding: 20px;
+}
+
+.contato-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+}
+
+.contato-grid img {
+    width: 10%;
+    height: auto;
+}
+
+/* Media query para dispositivos de tela pequena */
+@media (max-width: 600px) {
+    .contato-grid {
+        grid-template-columns: 1fr;
+    }
+}

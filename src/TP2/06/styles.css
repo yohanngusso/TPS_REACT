@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.card-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Alinha os cards em coluna */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; /* Impede a quebra de linha */
+}

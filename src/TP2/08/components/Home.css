@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.home-image img {
+    max-width: 50%;
+    height: auto;
+}
+
+.home-text {
+    margin-left: 20px;
+}
+
+.home-text h1 {
+    font-size: 32px;
+}
+
+.home-text p {
+    font-size: 18px;
+}
